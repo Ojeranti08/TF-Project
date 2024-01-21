@@ -2,7 +2,7 @@
 
 # FIRST PLAY --> multiple tasks
 - name: Install HTTPD server
-  hosts: n1
+  hosts: node1
   remote_user: centos
   become: yes
 
